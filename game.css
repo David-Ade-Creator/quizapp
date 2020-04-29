@@ -71,3 +71,20 @@ animation: spin 2s linear infinite;
   height:2.8rem;
   background-color:#2179c2;
 }
+@media screen and (max-width:991px) {
+  .choice-container{
+    width:100%;
+  }
+  .choice-prefix{
+   font-size: 60px;
+  }
+  .choice-text{
+    font-size: 60px;
+  }
+  #question{
+    font-size: 50px;
+  }
+  .hud-prefix{
+    font-size: 50px;
+  }
+}
